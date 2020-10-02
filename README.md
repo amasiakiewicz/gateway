@@ -4,3 +4,7 @@ This is api gateway service based on Zuul. It's main purpose is to discover serv
 ```
 ./gradlew clean build
 ```
+There is swagger endpoint which presents docs of all discovered services available under:
+```
+http://localhost:8762/swagger-ui/
+```
